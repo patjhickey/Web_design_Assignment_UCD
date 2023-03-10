@@ -64,6 +64,20 @@
   margin-top:15px;
 
 }
+.gaalogo img {
+  border-radius:25px;
+  margin-left:40px;
+
+
+}
+
+.kiely img {
+  border-radius:30px;
+  margin-top:80px;
+  margin-left:20px;
+
+}
+
 .outer-container  {
   display:flex;
   flex-direction: row;
@@ -129,47 +143,6 @@ table {
   
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width:900px) {
   .outer-container {
     display:inline-block;
@@ -186,10 +159,10 @@ table {
       width:480px;
     }
 
-}
+  @media screen and (max-width:900px) {   
+    .gaalogo img {
+      align-content: left;
 
-.trophies  {
-  padding-left:100px;
-  border:1px solid;
+    }
 
 }
