@@ -4,9 +4,9 @@
   padding: 0;
   margin: 0;
   background-color: lightseagreen;
+  font-family: 'Trebuchet MS', sans-serif; 
 
 }
-
 .navbar {
   background-color: darkblue;
   color:white;
@@ -18,7 +18,9 @@
 
 }
 .primary-icon {
-  height: 70px;
+  height: 80px;
+  align-items: center;
+  position:relative;
 }
 
 .nav-list {
@@ -41,7 +43,6 @@
 }
 .Landing-Page {
   margin-top: 14px;
-
   margin-left:20px;
   position: relative;
   text-align: center;
@@ -63,7 +64,6 @@
   text-align:center;
   font-size: 20px;
  
-
 }
 
 .narrative {
@@ -74,23 +74,23 @@
   poition:relative; 
   font-size: 20px;
   color:white;
-  padding-left:25px;
+  margin-left:25px;
   align =justify;
 
 }
 
 .gaalogo img {
   margin-left:40px;
+  margin-top:80px;
   width:500px;
   border-radius:25px;
   justify-content: flex-end;
 }
 
-.kiely img {
-  border-radius:30px;
+.kiely  img   {
+  border-radius:25px;
   margin-top:80px;
-  margin-left:20px;
-
+  margin-left:60px;
 }
 
 .outer-container  {
@@ -107,7 +107,7 @@
 
 .threeinarow  {
   text-align:center;
-  margin-left:20px;
+  margin-left:60px;
 }
 
 .content-table {
@@ -128,8 +128,8 @@
 table {
         border-style: ridge;
         border-width: 125px;
-        border-color: #8ebf42;
-        background-color: #d9d9d9;
+        border-color: green;
+        background-color: antiquewhite;
 
 
       }
@@ -152,7 +152,35 @@ table {
   border: 2px solid black;
 }
 
+.bottom-footer {
+  color:darkblue;
+  font-size: 10px;
+  font-style: italic;
+  text-align: center;
+  font-weight: 600;
+  margin-left: 70px;
 
+
+} 
+
+/* this section deals with at Media Comments to make the style responsive for a max width 480px mobile screen*/
+
+@media screen and (max-width:1300px) {   
+    .wrapper {
+  margin-left:400px
+      
+    }
+
+    @media screen and (max-width:1300px) {   
+    .landing-page {
+    margin-top: 10px;
+    margin-left:100px;
+    position: relative;
+    text-align: center;
+    color: white;
+    border-radius:10px;
+      
+    }
 
 @media screen and (max-width:900px) {
   .outer-container {
@@ -167,8 +195,9 @@ table {
 
   @media screen and (max-width:900px) {   
     .inner-container1 {
-      margin-left:2px;
+      margin-left:10px;
       width:480px;
+      font-size:20px;
     }
 
   @media screen and (max-width:900px) {
@@ -180,12 +209,14 @@ table {
 
   @media screen and (max-width:900px) {   
     .gaalogo img {
-      margin-left: 2px;
+      margin-left: 5px;
+      margin-top: 5px;
     }
 
   @media screen and (max-width:900px) {
     .kiely img {
       margin-left: 40px;
+      margin-top:5px;
 
     }
 
@@ -196,19 +227,21 @@ table {
       text-align:justify;
       font-size: 20px;
       padding-left: 0px;
-      margin-left: 2px;
+      margin-left: 10px;
 
     }
 
 }
 
-@media screen and (max-width:900px) {   
+    @media screen and (max-width:900px) {   
     .wrapper {
-      display:flex;
-      width:480px;  
-      text-align:justify;
-      font-size: 20px;
-      padding-left: 5px;
-      margin-left: 2px;
+  margin-left:1px;
+  display:flex; 
+  flex-direction: column;
+  width:410px;
+  poition:relative; 
+  text-align:center;
+  font-size: 20px;
+      
 
     }
